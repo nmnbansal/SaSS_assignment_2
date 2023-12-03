@@ -1,0 +1,46 @@
+.item-1 {
+  font-size: 20px;
+}
+
+.item-2 {
+  font-size: 40px;
+}
+
+.item-3 {
+  font-size: 60px;
+}
+
+.graph {
+  width: 20%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  transform: rotate(180deg);
+}
+
+.graph-1 {
+  height: 100px;
+  background-color: #59a96a;
+}
+
+.graph-2 {
+  height: 250px;
+  background-color: #636940;
+}
+
+.graph-3 {
+  height: 200px;
+  background-color: #59a96a;
+}
+
+.graph-4 {
+  height: 150px;
+  background-color: #636940;
+}
+
+.graph-5 {
+  height: 250px;
+  background-color: #59a96a;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,46 @@
+@for $i from 1 through 3 {
+    .item-#{$i} {
+      font-size: 20px * $i;
+    }
+  }
+
+  .graph{
+    width: 20%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    transform: rotate(180deg);
+}
+
+@for $i from 1 through 5 {
+  @if $i == 1 {
+      .graph-#{$i}{
+          height: 100px;
+          background-color:#59a96a;
+      }
+  }
+  @else if $i == 2 {
+      .graph-#{$i}{
+          height: 250px;
+          background-color: #636940;
+      }
+  }
+  @else if $i == 3 {
+      .graph-#{$i}{
+          height: 200px;
+          background-color: #59a96a;
+      }
+  }
+  @else if $i == 4 {
+      .graph-#{$i}{
+          height: 150px;
+          background-color: #636940;
+      }
+  }
+  @else if $i == 5 {
+      .graph-#{$i}{
+          height: 250px;
+          background-color: #59a96a;
+      }
+  }
+}
